@@ -94,12 +94,12 @@ endif;
 					<!-- Logo
 					============================================= -->
 					<div id="logo" class="hidden-md hidden-lg">
-						<a href="index.html" class="standard-logo" ><img src="images/logo100.png" class="img-responsive" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" ><img src="images/logo100.png" class="img-responsive" alt="Canvas Logo"></a>
+						<a href="index.php" class="standard-logo" ><img src="images/logo100.png" class="img-responsive" alt="Canvas Logo"></a>
+						<a href="index.php" class="retina-logo" ><img src="images/logo100.png" class="img-responsive" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 					<div id="logo" class="hidden-xs hidden-sm">
-						<a href="index.html" class="standard-logo"><img src="images/logo.png" class="img-responsive" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo"><img src="images/logo.png" class="img-responsive" alt="Canvas Logo"></a>
+						<a href="index.php" class="standard-logo"><img src="images/logo.png" class="img-responsive" alt="Canvas Logo"></a>
+						<a href="index.php" class="retina-logo"><img src="images/logo.png" class="img-responsive" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 					<!-- Primary Navigation
 					============================================= -->
