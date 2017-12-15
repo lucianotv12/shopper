@@ -20,11 +20,20 @@ if(isset($_POST["template-contactform-submit"] ) and $_POST["email"] != ""):
 			'html' => $html ,
 			'from_email' => 'admin@shopper.com.ar',
 			'to' => array(
-				array(
-					'email' => "l.verni@ibris.com.ar",
-					'name' => $_POST["nombre"] ." ". $_POST["apellido"]
-				)                       
-			)
+				            array(
+				                'email' => 'admin@shopper.com.ar',
+				                'name' => 'Admin shopper'
+				            ),
+				            array(
+				                'email' => 'info@ibris.com.ar',
+				                'name' => 'IBRIS'
+				            ),
+				            array(
+				                'email' => 'l.verni@ibris.com.ar',
+				                'name' => 'IBRIS'
+				            )			         			            
+
+				        )
 		);
 		$result = $mandrill->messages->send($message);   
 		if($result){ 
