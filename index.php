@@ -20,7 +20,7 @@ if(isset($_POST["submit"] ) and $_POST["email"] != ""):
 			'from_email' => 'admin@shopper.com.ar',
 			'to' => array(
 				array(
-					'email' => $_POST["email"],
+					'email' => "l.verni@ibris.com.ar",
 					'name' => $_POST["nombre"] ." ". $_POST["apellido"]
 				)                       
 			)
