@@ -1,6 +1,6 @@
 <?php
-if(isset($_POST["submit"] ) and $_POST["email"] != ""):
-	echo "aca entroo";
+if(isset($_POST["template-contactform-submit"] ) and $_POST["email"] != ""):
+	//echo "aca entroo";
 	$asunto ="Contacto desde Shopper : " . $_POST["asunto"];
 	$html="";
 	$html .= "<p>Nombre : ".$_POST["nombre"]." </p>";
@@ -137,7 +137,7 @@ endif;
 										</div>
 
 										<div class="col_full nobottommargin">
-											<button class="btn btn-lg  btn-block nomargin" name="submit" type="button" style="background-color: #1ABC9C">LOGIN</button>
+											<button class="btn btn-lg  btn-block nomargin" value="submit" type="button" style="background-color: #1ABC9C">LOGIN</button>
 										</div>
 									</form>
 									</div>	
